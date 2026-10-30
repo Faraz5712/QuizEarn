@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer Brand Glow Circle (Soft Indigo Tint) -->
+    <path
+        android:fillAlpha="0.12"
+        android:fillColor="#5B5FEF"
+        android:pathData="M60,60m-52,0a52,52 0,1 1,104 0a52,52 0,1 1,-104 0" />
+
+    <!-- Stylized "Q" Body Ring in Electric Indigo (#5B5FEF) -->
+    <path
+        android:fillColor="#5B5FEF"
+        android:fillType="evenOdd"
+        android:pathData="M56,22 C70.36,22 82,33.64 82,48 C82,62.36 70.36,74 56,74 C41.64,74 30,62.36 30,48 C30,33.64 41.64,22 56,22 Z M56,34 C63.73,34 70,40.27 70,48 C70,55.73 63.73,62 56,62 C48.27,62 42,55.73 42,48 C42,40.27 48.27,34 56,34 Z" />
+
+    <!-- Inner Core: Insight Light Star in Mint Teal (#2DD4BF) -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M56,38 L58.7,44.8 L65,47.5 L58.7,50.2 L56,57 L53.3,50.2 L47,47.5 L53.3,44.8 Z" />
+
+    <!-- Golden Spark Connector (#F5B942) -->
+    <path
+        android:fillColor="#F5B942"
+        android:pathData="M65,58 L74,58 L86,74 L77,74 Z" />
+
+    <!-- Radiant Spark Tail in Reward Gold (#F5B942) -->
+    <path
+        android:fillColor="#F5B942"
+        android:pathData="M83,62 L87,70.5 L95.5,74.5 L87,78.5 L83,87 L79,78.5 L70.5,74.5 L79,70.5 Z" />
+
+    <!-- Highlight Flare on Spark (#FFFFFF) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M83,71.5 L84.5,73.5 L86.5,74.5 L84.5,75.5 L83,77.5 L81.5,75.5 L79.5,74.5 L81.5,73.5 Z" />
+</vector>

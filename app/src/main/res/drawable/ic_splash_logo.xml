@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Ambient Glow Layer -->
+    <path
+        android:fillAlpha="0.10"
+        android:fillColor="#5B5FEF"
+        android:pathData="M80,80m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+    <path
+        android:fillAlpha="0.15"
+        android:fillColor="#8B5CF6"
+        android:pathData="M80,80m-52,0a52,52 0,1 1,104 0a52,52 0,1 1,-104 0" />
+
+    <!-- Satellite Accent Dots -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M38,42m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="#F5B942"
+        android:pathData="M124,36m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M32,108m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- Primary "Q" Ring in Electric Indigo (#5B5FEF) -->
+    <path
+        android:fillColor="#5B5FEF"
+        android:fillType="evenOdd"
+        android:pathData="M76,32 C95.33,32 111,47.67 111,67 C111,86.33 95.33,102 76,102 C56.67,102 41,86.33 41,67 C41,47.67 56.67,32 76,32 Z M76,46 C87.6,46 97,55.4 97,67 C97,78.6 87.6,88 76,88 C64.4,88 55,78.6 55,67 C55,55.4 64.4,46 76,46 Z" />
+
+    <!-- Inner Core: Insight Light Star in Mint Teal (#2DD4BF) -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M76,52 L79.8,61.5 L89,65.5 L79.8,69.5 L76,79 L72.2,69.5 L63,65.5 L72.2,61.5 Z" />
+
+    <!-- Spark Connector Bar (#F5B942) -->
+    <path
+        android:fillColor="#F5B942"
+        android:pathData="M88,80 L100,80 L118,102 L106,102 Z" />
+
+    <!-- Radiant Achievement Spark Tail in Amber Gold (#F5B942) -->
+    <path
+        android:fillColor="#F5B942"
+        android:pathData="M112,86 L117.5,98 L129,104 L117.5,110 L112,122 L106.5,110 L95,104 L106.5,98 Z" />
+
+    <!-- Center Bright Highlight (#FFFFFF) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M112,99 L114,102.5 L117.5,104 L114,105.5 L112,109 L110,105.5 L106.5,104 L110,102.5 Z" />
+</vector>

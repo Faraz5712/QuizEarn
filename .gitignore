@@ -1,0 +1,31 @@
+# Local environment and credentials
+local.properties
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+google-services.json
+service-account*.json
+
+# Build output and tooling
+.gradle/
+.kotlin/
+.idea/
+.kilo/
+**/build/
+**/node_modules/
+admin/.next/
+admin/out/
+functions/lib/
+
+# Firebase and generated logs
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.iml

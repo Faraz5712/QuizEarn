@@ -1,0 +1,31 @@
+{
+  "name": "quizearn-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QuizEarn Web Admin Panel — Role-Based Operations & Monitoring",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "firebase": "^13.1.0",
+    "next": "^15.5.24",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.6",
+    "postcss": "^8.5.32"
+  }
+}
